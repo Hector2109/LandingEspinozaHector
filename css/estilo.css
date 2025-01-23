@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.introduccion {
+    padding: 20px;
+    text-align: center;
+}
+
+.hobbies, .series, .peliculas, .contacto {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies ul, .series ul, .peliculas ul {
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
